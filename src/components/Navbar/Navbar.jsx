@@ -50,7 +50,7 @@ const Navbar = ({ setShowLogin }) => {
                             <li onClick={() => navigate('/myorders')}><img src={assets.bag_icon} alt='' /><p>Orders</p></li>
                             <hr />
                             <li onClick={logout}><img src={assets.logout_icon} alt='' /><p>Logout</p></li>
-                            <li onClick={() => window.location.replace('http://127.0.0.1:5173/orders')}><img src={assets.admin_icon} alt='' /><p>Admin</p></li>
+                            <li onClick={() => window.open('https://food-delivery-admin-singhota.netlify.app/orders', '_blank')}><img src={assets.admin_icon} alt='' /><p>Admin</p></li>
 
                         </ul>
                     </div>
