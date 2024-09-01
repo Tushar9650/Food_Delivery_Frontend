@@ -48,8 +48,8 @@ const PlaceOrder = () => {
         window.location.replace(success_url);
        }
        else{
-        alert("Error")
-       }
+        alert("Please Place order Minimum $25")
+        }
 
 
     }
