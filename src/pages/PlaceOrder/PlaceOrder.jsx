@@ -48,7 +48,7 @@ const PlaceOrder = () => {
         window.location.replace(success_url);
        }
        else{
-        alert("Please Place order Minimum $25")
+        alert("Please Add more Items in the Cart,for free Delivery!");
         }
 
 
